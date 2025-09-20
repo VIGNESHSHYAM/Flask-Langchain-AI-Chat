@@ -40,7 +40,7 @@ cass_buff_memory = ConversationBufferMemory(
 )
 
 template = """
-You are now interacting with the knowledge bot named AI. Please provide your query or request based on the chat history for a more context-aware response.
+You are now interacting with the knowledge bot named AI. Please provide your query or request based on the chat history for a more context-aware responses.
 Chat History: {chat_history}
 User: {input}
 AI:
